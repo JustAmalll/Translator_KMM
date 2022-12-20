@@ -83,3 +83,17 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# KMM
+.gradle
+.idea
+.DS_Store
+build
+*/build
+captures
+.cxx
+xcuserdata/
+Pods/
+/androidApp/key
+*.jks
+*yarn.lock
