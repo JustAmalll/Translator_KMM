@@ -1,9 +1,10 @@
-package dev.amal.translator_kmm.translate.domain.translate
+package dev.amal.translator_kmm.translate.data.translate
 
 import dev.amal.translator_kmm.NetworkConstants
 import dev.amal.translator_kmm.core.domain.language.Language
-import dev.amal.translator_kmm.translate.data.TranslateDto
-import dev.amal.translator_kmm.translate.data.TranslatedDto
+import dev.amal.translator_kmm.translate.domain.translate.TranslateClient
+import dev.amal.translator_kmm.translate.domain.translate.TranslateError
+import dev.amal.translator_kmm.translate.domain.translate.TranslateException
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.request.*

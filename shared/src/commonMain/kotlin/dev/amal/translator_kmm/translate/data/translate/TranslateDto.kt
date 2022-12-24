@@ -1,4 +1,4 @@
-package dev.amal.translator_kmm.translate.data
+package dev.amal.translator_kmm.translate.data.translate
 
 import kotlinx.serialization.SerialName
 
