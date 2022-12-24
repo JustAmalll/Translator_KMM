@@ -97,3 +97,5 @@ Pods/
 /androidApp/key
 *.jks
 *yarn.lock
+
+shared/src/commonMain/kotlin/dev/amal/translator_kmm/NetworkConstants.kt
