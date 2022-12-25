@@ -70,7 +70,7 @@ class TranslateViewModel(
                 it.copy(isChoosingFromLanguage = true)
             }
             TranslateEvent.OpenToLanguageDropDown -> _state.update {
-                it.copy(isChoosingFromLanguage = true)
+                it.copy(isChoosingToLanguage = true)
             }
             is TranslateEvent.SelectHistoryItem -> {
                 translateJob?.cancel()
