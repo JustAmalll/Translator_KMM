@@ -19,6 +19,10 @@
 		B3D274A92959A8C90003AFF7 /* SwapLanguageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274A82959A8C90003AFF7 /* SwapLanguageButton.swift */; };
 		B3D274AB2959A9BC0003AFF7 /* IOSTranslateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274AA2959A9BC0003AFF7 /* IOSTranslateViewModel.swift */; };
 		B3D274AD2959A9DF0003AFF7 /* TranslateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274AC2959A9DF0003AFF7 /* TranslateScreen.swift */; };
+		B3D274AF2959BB970003AFF7 /* GradientSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274AE2959BB960003AFF7 /* GradientSurface.swift */; };
+		B3D274B12959BDD80003AFF7 /* LanguageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B02959BDD80003AFF7 /* LanguageDisplay.swift */; };
+		B3D274B32959BF140003AFF7 /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B22959BF140003AFF7 /* ProgressButton.swift */; };
+		B3D274B52959C09D0003AFF7 /* TranslateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		B3D274A82959A8C90003AFF7 /* SwapLanguageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapLanguageButton.swift; sourceTree = "<group>"; };
 		B3D274AA2959A9BC0003AFF7 /* IOSTranslateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTranslateViewModel.swift; sourceTree = "<group>"; };
 		B3D274AC2959A9DF0003AFF7 /* TranslateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateScreen.swift; sourceTree = "<group>"; };
+		B3D274AE2959BB960003AFF7 /* GradientSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSurface.swift; sourceTree = "<group>"; };
+		B3D274B02959BDD80003AFF7 /* LanguageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDisplay.swift; sourceTree = "<group>"; };
+		B3D274B22959BF140003AFF7 /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				B3D2749D29599CA00003AFF7 /* Colors.swift */,
+				B3D274AE2959BB960003AFF7 /* GradientSurface.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -142,6 +151,9 @@
 				B3D274A42959A5850003AFF7 /* LanguageDropDown.swift */,
 				B3D274A62959A70E0003AFF7 /* SmallLanguageIcon.swift */,
 				B3D274A82959A8C90003AFF7 /* SwapLanguageButton.swift */,
+				B3D274B02959BDD80003AFF7 /* LanguageDisplay.swift */,
+				B3D274B22959BF140003AFF7 /* ProgressButton.swift */,
+				B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -286,8 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D274B32959BF140003AFF7 /* ProgressButton.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				B3D274AF2959BB970003AFF7 /* GradientSurface.swift in Sources */,
 				B3D274A32959A2C90003AFF7 /* LanguageDropDownItem.swift in Sources */,
+				B3D274B12959BDD80003AFF7 /* LanguageDisplay.swift in Sources */,
 				B3D274A72959A70E0003AFF7 /* SmallLanguageIcon.swift in Sources */,
 				B3D274AB2959A9BC0003AFF7 /* IOSTranslateViewModel.swift in Sources */,
 				B3D274A52959A5850003AFF7 /* LanguageDropDown.swift in Sources */,
@@ -295,6 +310,7 @@
 				B3D2749E29599CA00003AFF7 /* Colors.swift in Sources */,
 				B3D274AD2959A9DF0003AFF7 /* TranslateScreen.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				B3D274B52959C09D0003AFF7 /* TranslateTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
