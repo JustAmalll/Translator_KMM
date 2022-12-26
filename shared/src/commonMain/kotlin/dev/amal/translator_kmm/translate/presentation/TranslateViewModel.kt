@@ -109,6 +109,7 @@ class TranslateViewModel(
 
     private fun translate(state: TranslateState) {
         if (state.isTranslating || state.fromText.isBlank()) return
+
         translateJob = viewModelScope.launch {
             _state.update { it.copy(isTranslating = true) }
             val result = translate.execute(
