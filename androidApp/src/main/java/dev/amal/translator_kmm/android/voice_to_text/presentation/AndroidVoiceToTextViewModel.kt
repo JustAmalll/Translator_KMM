@@ -9,7 +9,7 @@ import dev.amal.translator_kmm.voice_to_text.presentation.VoiceToTextViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class AndroidVoiceToTextParser @Inject constructor(
+class AndroidVoiceToTextViewModel @Inject constructor(
     private val parser: VoiceToTextParser
 ): ViewModel() {
 
