@@ -23,6 +23,7 @@
 		B3D274B12959BDD80003AFF7 /* LanguageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B02959BDD80003AFF7 /* LanguageDisplay.swift */; };
 		B3D274B32959BF140003AFF7 /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B22959BF140003AFF7 /* ProgressButton.swift */; };
 		B3D274B52959C09D0003AFF7 /* TranslateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */; };
+		B3D274B7295AAE200003AFF7 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B6295AAE200003AFF7 /* TextToSpeech.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		B3D274B02959BDD80003AFF7 /* LanguageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDisplay.swift; sourceTree = "<group>"; };
 		B3D274B22959BF140003AFF7 /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
 		B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTextField.swift; sourceTree = "<group>"; };
+		B3D274B6295AAE200003AFF7 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				B3D274A12959A2A70003AFF7 /* components */,
 				B3D274AA2959A9BC0003AFF7 /* IOSTranslateViewModel.swift */,
 				B3D274AC2959A9DF0003AFF7 /* TranslateScreen.swift */,
+				B3D274B6295AAE200003AFF7 /* TextToSpeech.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				B3D274A92959A8C90003AFF7 /* SwapLanguageButton.swift in Sources */,
 				B3D2749E29599CA00003AFF7 /* Colors.swift in Sources */,
 				B3D274AD2959A9DF0003AFF7 /* TranslateScreen.swift in Sources */,
+				B3D274B7295AAE200003AFF7 /* TextToSpeech.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				B3D274B52959C09D0003AFF7 /* TranslateTextField.swift in Sources */,
 			);
