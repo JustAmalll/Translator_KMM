@@ -40,7 +40,7 @@ class VoiceToTextViewModel(
             while (true) {
                 if (state.value.displayState == DisplayState.SPEAKING) {
                     _state.update {
-                        it.copy(powerRatios = it.powerRatios + parser.state.value.powerRation)
+                        it.copy(powerRatios = it.powerRatios + parser.state.value.powerRatio)
                     }
                 }
                 delay(50L)

@@ -67,7 +67,7 @@ class AndroidVoiceToTextParser(
 
     override fun onRmsChanged(rmsDb: Float) {
         _state.update {
-            it.copy(powerRation = rmsDb * (1f / (12f - (-2f))))
+            it.copy(powerRatio = rmsDb * (1f / (12f - (-2f))))
         }
     }
 
