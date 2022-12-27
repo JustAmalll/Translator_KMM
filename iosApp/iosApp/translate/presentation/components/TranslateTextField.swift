@@ -53,7 +53,7 @@ struct TranslateTextField_Previews: PreviewProvider {
     static var previews: some View {
         TranslateTextField(
             fromText: Binding(get: { "test" }, set: { value in }),
-            toText: "Test",
+            toText: nil,
             isTranslating: false,
             fromLanguage: UiLanguage(language: .english, imageName: "english"),
             toLanguage: UiLanguage(language: .german, imageName: "german"),
@@ -62,13 +62,15 @@ struct TranslateTextField_Previews: PreviewProvider {
     }
 }
 
+
 private extension TranslateTextField {
     
     struct IdleTextField: View {
+        
         @Binding var fromText: String
         let isTranslating: Bool
         let onTranslateEvent: (TranslateEvent) -> Void
-        
+    
         var body: some View {
             TextEditor(text: $fromText)
                 .frame(
@@ -107,6 +109,7 @@ private extension TranslateTextField {
         var body: some View {
             VStack(alignment: .leading) {
                 LanguageDisplay(language: fromLanguage)
+                    .padding(.bottom)
                 Text(fromText)
                     .foregroundColor(.onSurface)
                 HStack {

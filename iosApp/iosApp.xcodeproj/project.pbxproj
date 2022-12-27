@@ -24,6 +24,7 @@
 		B3D274B32959BF140003AFF7 /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B22959BF140003AFF7 /* ProgressButton.swift */; };
 		B3D274B52959C09D0003AFF7 /* TranslateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */; };
 		B3D274B7295AAE200003AFF7 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B6295AAE200003AFF7 /* TextToSpeech.swift */; };
+		B3D274B9295AB0500003AFF7 /* TranslateHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D274B8295AB0500003AFF7 /* TranslateHistoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B3D274B22959BF140003AFF7 /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
 		B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTextField.swift; sourceTree = "<group>"; };
 		B3D274B6295AAE200003AFF7 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+		B3D274B8295AB0500003AFF7 /* TranslateHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateHistoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				B3D274B02959BDD80003AFF7 /* LanguageDisplay.swift */,
 				B3D274B22959BF140003AFF7 /* ProgressButton.swift */,
 				B3D274B42959C09D0003AFF7 /* TranslateTextField.swift */,
+				B3D274B8295AB0500003AFF7 /* TranslateHistoryItem.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				B3D274AD2959A9DF0003AFF7 /* TranslateScreen.swift in Sources */,
 				B3D274B7295AAE200003AFF7 /* TextToSpeech.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				B3D274B9295AB0500003AFF7 /* TranslateHistoryItem.swift in Sources */,
 				B3D274B52959C09D0003AFF7 /* TranslateTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
