@@ -5,7 +5,7 @@ import dev.amal.translator_kmm.R
 import dev.amal.translator_kmm.core.domain.language.Language
 import java.util.*
 
-actual class UiLanguage(
+actual data class UiLanguage(
     @DrawableRes val drawableRes: Int,
     actual val language: Language
 ) {
