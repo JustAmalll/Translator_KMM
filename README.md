@@ -1,4 +1,5 @@
 # Kotlin Multiplatform Mobile Translator App
+![translator_kmm_preview](https://user-images.githubusercontent.com/85354530/209861420-ae434a47-3bc2-4e46-9be4-2c9ed0289e56.png)
 
 ## What is KMM?
 
@@ -27,5 +28,3 @@ The Kotlin code will then be translated into native iOS code, so that you will g
 
 * Local unit tests for shared Kotlin code
 * UI and end-to-end tests for both Android & iOS to test real user flows such as voice input and translation
-
-![translator_kmm_preview](https://user-images.githubusercontent.com/85354530/209861420-ae434a47-3bc2-4e46-9be4-2c9ed0289e56.png)
