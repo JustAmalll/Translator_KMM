@@ -44,11 +44,9 @@ extension TranslateScreen {
         }
         
         func startObserving() {
-            handle = viewModel.state.subscribe(onCollect: { state in
-                if let state = state {
-                    self.state = state
-                }
-            })
+            handle = viewModel.state.subscribe { [weak self] state in
+                if let state { self?.state = state }
+            }
         }
         
         func dispose() {
