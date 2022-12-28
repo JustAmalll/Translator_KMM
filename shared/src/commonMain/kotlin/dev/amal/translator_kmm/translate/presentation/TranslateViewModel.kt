@@ -14,8 +14,8 @@ import kotlinx.coroutines.launch
 
 class TranslateViewModel(
     private val translate: Translate,
-    private val historyDataSource: HistoryDataSource,
-    private val coroutineScope: CoroutineScope?
+    historyDataSource: HistoryDataSource,
+    coroutineScope: CoroutineScope?
 ) {
     private val viewModelScope = coroutineScope ?: CoroutineScope(Dispatchers.Main)
 
@@ -94,13 +94,15 @@ class TranslateViewModel(
                     toText = if (event.result != null) null else it.toText
                 )
             }
-            TranslateEvent.SwapLanguages -> _state.update {
-                it.copy(
-                    fromLanguage = it.toLanguage,
-                    toLanguage = it.fromLanguage,
-                    fromText = it.toText ?: "",
-                    toText = if (it.toText != null) it.fromText else null
-                )
+            TranslateEvent.SwapLanguages -> {
+                _state.update {
+                    it.copy(
+                        fromLanguage = it.toLanguage,
+                        toLanguage = it.fromLanguage,
+                        fromText = it.toText ?: "",
+                        toText = if (it.toText != null) it.fromText else null
+                    )
+                }
             }
             TranslateEvent.Translate -> translate(state.value)
             else -> Unit
