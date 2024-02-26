@@ -1,7 +1,7 @@
-# Kotlin Multiplatform Mobile Translator App
+# Kotlin Multiplatform Translator App
 ![translator_kmm_preview](https://user-images.githubusercontent.com/85354530/209861420-ae434a47-3bc2-4e46-9be4-2c9ed0289e56.png)
 
-## What is KMM?
+## What is KM?
 
 KMM stands for Kotlin Multiplatform Mobile and is a brand new technology that allows us to share large portions of Kotlin code between Android and iOS.
 The Kotlin code will then be translated into native iOS code, so that you will get 2 native apps in the end, which is the biggest advantage of this technology. Only the platform specific logic needs to be implemented twice in native language. That includes the UI and platform APIs such as showing notifications or speech recognition.
